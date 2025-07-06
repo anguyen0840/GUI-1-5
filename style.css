@@ -1,0 +1,54 @@
+/* 
+File: style.css
+GUI Assignment 5 : Scrabble
+Anh Nguyen, UMass Lowell Computer Science, anh_nguyen9@student.uml.edu
+Copyright (c) 2025 by Anh Nguyen. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by AN on June 27, 2025 at 12:15 PM 
+July 4, 2025 at 2 PM */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #69bafd;
+}
+
+#tileHolder {
+    background-image: url('graphics/scrabble-tile-holder-406774_640.png');
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    width: 500px;
+    height: 80px;
+    position: relative;
+}
+
+#board {
+    width: 1050px;
+    height: 70px;
+    background-image: url('graphics/Scrabble_Board_OneLine.png');
+    background-size: cover;
+    position: relative;
+    margin: 0 auto;
+}
+
+.tile {
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.tileSlot {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #000;
+    position: absolute;
+}
+
+#scoreDisplay {
+    margin-top: 20px;
+    font-size: 24px;
+    text-align: center;
+}
